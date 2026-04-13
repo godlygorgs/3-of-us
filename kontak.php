@@ -76,7 +76,7 @@ Pesan : $pesan"
     curl_close($curl2);
 
     // Redirect kembali ke halaman utama (sama seperti contoh guru)
-    echo "<script>alert('Pesan berhasil dikirim!'); window.location='index.php'</script>";
+    echo "<script>alert('Pesan berhasil dikirim!'); window.location='index.html'</script>";
 
 } else {
     echo "Kesalahan: " . mysqli_error($conn);
