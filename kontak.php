@@ -10,7 +10,7 @@ $pesan = mysqli_real_escape_string($conn, $_POST['pesan']);
 
 // Simpan ke database (pola INSERT sama seperti contoh guru)
 $query = "insert into db_kontak(nama, email, no_hp, pesan) values ('$nama', '$email', '$no_hp', '$pesan')";
-mysqli_query($conn, $query);
+
 
 if (mysqli_query($conn, $query)) {
 
